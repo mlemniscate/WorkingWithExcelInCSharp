@@ -41,7 +41,9 @@ namespace ExcelDemoAPI.Controllers
             // string projectDirectory = Directory.GetParent(workingDirectory).Parent.FullName;
             var file = new FileInfo(workingDirectory + @"\Files\WeatherExcel.xlsx");
             await SaveExcelFile(weatherForecasts, file);
-            return Ok();
+            var mimeType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+            byte[] fileBytes = System.IO.File.ReadAllBytes(file.FullName);
+            return Ok(File(fileBytes, mimeType, file.Name));
         }
 
         private async Task SaveExcelFile(WeatherForecast[] weatherForecasts, FileInfo file)
