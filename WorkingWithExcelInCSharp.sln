@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithExcelInCSharp", "WorkingWithExcelInCSharp\WorkingWithExcelInCSharp.csproj", "{9112AE3D-EA25-449D-A3C1-22034B822577}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelDemoAPI", "ExcelDemoAPI\ExcelDemoAPI.csproj", "{9750E729-EF87-4E2B-B999-FF9EBBB85561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9112AE3D-EA25-449D-A3C1-22034B822577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9112AE3D-EA25-449D-A3C1-22034B822577}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9112AE3D-EA25-449D-A3C1-22034B822577}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9112AE3D-EA25-449D-A3C1-22034B822577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9750E729-EF87-4E2B-B999-FF9EBBB85561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9750E729-EF87-4E2B-B999-FF9EBBB85561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9750E729-EF87-4E2B-B999-FF9EBBB85561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9750E729-EF87-4E2B-B999-FF9EBBB85561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
